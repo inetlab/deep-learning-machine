@@ -47,6 +47,7 @@ Vagrant.configure("2") do |c|
 		}
 
 		chef.add_recipe "python"
+		chef.add_recipe "git"
 		chef.add_recipe "deep"
 		# ln -s  /usr/bin/python3.5 /usr/bin/python
 

@@ -15,6 +15,6 @@ cookbook 'build-essential'
 cookbook 'python'
 #cookbook 'zip'
 cookbook 'apt'
-# cookbook 'git'
+cookbook 'git'
 #cookbook 'homebrew'
 

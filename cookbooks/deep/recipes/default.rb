@@ -1,5 +1,5 @@
 include_recipe 'python'
-# include_recipe 'git'
+include_recipe 'git'
 
 # execute 'unlink python' do
 #   command 'rm /usr/bin/python'
@@ -16,8 +16,8 @@ python_pip 'tensorflow'
 python_pip 'keras'
 
 
-# git "/home/vagrant/keras" do
-#   repository "https://github.com/fchollet/keras.git"
-#   reference "master"
-#   action :sync
-# end
+git "/home/vagrant/keras" do
+  repository "https://github.com/fchollet/keras.git"
+  reference "master"
+  action :sync
+end
